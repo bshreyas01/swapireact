@@ -22,7 +22,7 @@ class App extends Component {
     }
     
     render() {
-        const text = this.state.loading ? "loading..." : JSON.stringify(this.state.character)
+        const text = this.state.loading ? "loading..." : JSON.stringify(this.state.character.name)
         return (
             <div>
                 <p>{text}</p>
