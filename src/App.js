@@ -8,7 +8,7 @@ class App extends Component {
             character: {}
         }
     }
-    
+    //
     componentDidMount() {
         this.setState({loading: true})
         fetch("https://swapi.dev/api/people/1")
